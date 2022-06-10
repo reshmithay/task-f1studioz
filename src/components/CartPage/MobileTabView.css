@@ -1,0 +1,40 @@
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f2f2f2;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.card {
+    background-color: #ffffff;
+    box-shadow: 0 3px 5px -3px grey;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.heading {
+    font-size: 12px;
+    font-weight: 600;
+    color: "#651a1a";
+    margin-bottom: 10px
+}
+
+.newTag {
+    display: block;
+    color: #006622;
+    border-radius: 10px;
+    background-color: #b3ffcc;
+    height: 18px;
+    width: 45px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 12px;
+}
