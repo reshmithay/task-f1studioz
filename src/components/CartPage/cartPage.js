@@ -19,26 +19,26 @@ const CartPage = () => {
       <HeadTabComponent />
       {activeTab === "Carts" && <TableTabComponent />}
 
-      {windowWidth > 768 ? (
-        activeTab === "Carts" ? (
+      {activeTab === "Carts" ? (
+        windowWidth > 768 ? (
           <TableComponent />
         ) : (
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              justifyContent: "center",
-              marginTop: "200px",
-              fontSize: "40px",
-              fontWeight: "bold",
-              color: "grey",
-            }}
-          >
-            No favourite orders yet!
-          </div>
+          <MobileTabView />
         )
       ) : (
-        <MobileTabView />
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+            marginTop: "200px",
+            fontSize: "40px",
+            fontWeight: "bold",
+            color: "grey",
+          }}
+        >
+          No favourite orders yet!
+        </div>
       )}
     </div>
   );
