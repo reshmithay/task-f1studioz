@@ -70,7 +70,7 @@ const ConfigurationPage1 = () => {
           <Card className="card-config1">
             <Card.Body style={{ width: "80%", padding: 0 }}>
               <div className="card-body-config1">
-                <div className="d-flex flex-row justify-content-start  mb-2">
+                <div className="d-flex flex-row justify-content-start text-left mb-2">
                   <Typography
                     sx={{
                       fontSize: 16,
@@ -176,13 +176,6 @@ const ConfigurationPage1 = () => {
               </Button>
             </Link>
           </div>
-          {/* <div className="card-container fixed-bottom mt-3 fixed-footer">
-            <div className="d-flex flex-row justify-content-end ">
-              <div className="d-flex flex-row">
-                <Link to="/configuration-2"><Button className="configure-btn">CONFIGURE</Button></Link>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>
